@@ -1,0 +1,7 @@
+
+streamlit
+langchain-huggingface
+langchain-community
+pypdf
+duckduckgo-search
+langchain-text-splitters
