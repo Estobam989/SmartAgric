@@ -4,7 +4,7 @@ import os
 import streamlit as st
 import tempfile
 import shutil
-import config # Import config
+import config 
 
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEmbeddings, HuggingFaceEndpoint
 from langchain_community.vectorstores import FAISS
