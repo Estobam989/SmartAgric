@@ -1,7 +1,7 @@
 
 streamlit
-langchain-huggingface
-langchain-community
+langchain_huggingface
+langchain_community
 pypdf
 duckduckgo-search
 langchain-text-splitters
