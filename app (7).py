@@ -5,8 +5,7 @@ import streamlit as st
 import tempfile
 import shutil 
 
-from langchain_huggingface import ChatHuggingFace,
-HuggingFaceEmbeddings, HuggingFaceEndpoint
+from langchain_huggingface import ChatHuggingFace, 'HuggingFaceEmbeddings', 'HuggingFaceEndpoint'
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.tools import DuckDuckGoSearchRun
