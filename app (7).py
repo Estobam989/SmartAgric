@@ -5,6 +5,7 @@ import streamlit as st
 import tempfile
 import shutil 
 
+from langchain_huggingface import ChatHuggingFace
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_huggingface import HuggingFaceEndpoint
 from langchain_community.vectorstores import FAISS
