@@ -3,8 +3,7 @@ import sys
 import os
 import streamlit as st
 import tempfile
-import shutil
-import config 
+import shutil 
 
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEmbeddings, HuggingFaceEndpoint
 from langchain_community.vectorstores import FAISS
