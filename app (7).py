@@ -5,7 +5,7 @@ import streamlit as st
 import tempfile
 import shutil 
 
-from langchain_huggingface import ChatHuggingFace 
+from langchain_huggingface import Chat_HuggingFace 
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_huggingface import HuggingFaceEndpoint
 from langchain_community.vectorstores import FAISS
@@ -42,7 +42,7 @@ hf_llm = HuggingFaceEndpoint(
     temperature=TEMPERATURE,
     max_new_tokens=MAX_TOKENS # Use max_new_tokens for HuggingFaceEndpoint
 )
-llm = ChatHuggingFace(llm=hf_llm)
+llm = Chat_HuggingFace(llm=hf_llm)
 
 # --- 3. Embeddings Initialization ---
 embeddings = HuggingFaceEmbeddings(
