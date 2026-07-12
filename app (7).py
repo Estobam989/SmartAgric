@@ -6,8 +6,8 @@ import tempfile
 import shutil 
 
 from langchain_huggingface import ChatHuggingFace 
-                            import HuggingFaceEmbeddings
-                            import HuggingFaceEndpoint
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEndpoint
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.tools import DuckDuckGoSearchRun
